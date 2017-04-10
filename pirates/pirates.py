@@ -12,7 +12,7 @@ pirates = [
 # - have more than 15 gold
 
 def pirate_list(lst):   # open a new function with lst arg.
-
+    """Function for returns a list of names containing the pirates that have wooden leg and have more than 15 gold"""
     dict_list = []      # open an empty list
     
     for dct in lst:     # check every dicts(elements in the 'pirates' list) 
