@@ -5,13 +5,15 @@ def count_as(file):
     # If the file does not exist, the function should return 0 and not break.
 
     if file == "afile.txt":
-
-
         handle = open(file,'r')     # open the file with read arg.
         text = handle.readline()    # assign the line to a variable (because the text file is only one line)
         count_text = text.lower()   # use a string method "lower" to lower all characters
+        handle.close()                # close the opened file
+        
         return count_text.count('a') # return the number counted with "count" string method
+    
     else:
+
         return print(0)
 
 
