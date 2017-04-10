@@ -10,3 +10,19 @@ pirates = [
 # And returns a list of names containing the pirates that
 # - have wooden leg and
 # - have more than 15 gold
+
+def pirate_list(lst):
+    
+    for dct in lst:
+        print(dct)
+
+
+
+#     for a in hashmap:
+#         for k, v in a.items():
+#             if k == i:
+
+    # return
+
+
+pirate_list(pirates)
