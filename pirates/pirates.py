@@ -12,15 +12,12 @@ pirates = [
 # - have more than 15 gold
 
 def pirate_list(lst):
+
+
     
     for dct in lst:
-        print(dct)
-
-
-
-#     for a in hashmap:
-#         for k, v in a.items():
-#             if k == i:
+        if dct['has_wooden_leg'] is True and dct['gold'] > 15:
+            print(dct)
 
     # return
 
