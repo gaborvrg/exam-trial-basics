@@ -1,10 +1,7 @@
 def count_as(file):
-    # pass
-    # Create a function that takes a filename as string parameter,
-    # counts the occurances of the letter "a", and returns it as a number.
-    # If the file does not exist, the function should return 0 and not break.
-
+    """Function for opennig file and return the number counted 'a' character in the file """
     try:
+
         handle = open(file,'r')     # open the file with read arg.
         text = handle.readline()    # assign the line to a variable (because the whole text file is only one line)
         count_text = text.lower()   # use a string method "lower" to lower all characters
