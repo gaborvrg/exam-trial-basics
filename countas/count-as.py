@@ -6,7 +6,7 @@ def count_as(file):
 
     if file == "afile.txt":         # if file exist, then do the things below
         handle = open(file,'r')     # open the file with read arg.
-        text = handle.readline()    # assign the line to a variable (because the text file is only one line)
+        text = handle.readline()    # assign the line to a variable (because the whole text file is only one line)
         count_text = text.lower()   # use a string method "lower" to lower all characters
         handle.close()                # close the opened file
         
