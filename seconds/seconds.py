@@ -4,10 +4,6 @@ def seconds(elements):
     # and returns a new list with every second element from the orignal list
     # example: [1, 2, 3, 4, 5] should produce [2, 4]
 
-
-    # This is an extended slice method. 
-    # It works on every second elements on the list from 0 index to end index.
-
-    return elements[::2] 
+    return elements[1::2]   # It counts the elements from after the 1st and step to the end. Last nmumber is teh step vaule.
 
 print(seconds([1, 2, 3, 4, 5])) # should print [2, 4]
